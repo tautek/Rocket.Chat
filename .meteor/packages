@@ -69,6 +69,7 @@ rocketchat:message-attachments
 rocketchat:message-pin
 rocketchat:message-star
 rocketchat:migrations
+rocketchat:portal
 rocketchat:oauth2-server-config
 rocketchat:oembed
 rocketchat:otr
@@ -139,3 +140,10 @@ yasinuslu:blaze-meta
 # sanjo:jasmine
 # velocity:html-reporter
 smoral:sweetalert
+
+react@=0.14.3
+react-template-helper
+meteorhacks:npm
+cosmos:browserify
+npm-container
+
