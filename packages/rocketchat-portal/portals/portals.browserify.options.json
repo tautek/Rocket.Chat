@@ -7,6 +7,6 @@
                 "react-dom": "React.require"
             }
         }
-    },
+    }
 }
 
