@@ -9,6 +9,13 @@ var UnknownPortal = React.createClass({
 Template.portal.helpers({
     Portal() {
         var id = FlowRouter.getParam("id");
-        return UnknownPortal;
+        var portal_class = "Portal" + id;
+        if (window.hasOwnProperty(portal_class))
+        {
+            return window[portal_class];
+        } else { 
+            return UnknownPortal;
+        }
     }
 });
+

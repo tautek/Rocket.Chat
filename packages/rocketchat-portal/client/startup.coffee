@@ -1,4 +1,3 @@
 Meteor.startup ->
-	console.log('startup hooked')
-
+    console.log('startup hooked')
 

@@ -1,0 +1,17 @@
+<template name="portalSidebarFlex">
+    <header>
+        <div>
+            <h4>Portals</h4>
+        </div>
+    </header>
+    <div class="content">
+        <div class="wrapper">
+            <ul class="flex-list">
+                {{#each portals}}
+                    {{> portalSidebarItem }}
+                {{/each}}
+            </ul>
+        </div>
+    </div>
+</template>
+

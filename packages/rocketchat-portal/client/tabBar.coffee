@@ -1,4 +1,4 @@
 Meteor.startup ->
-	Tracker.autorun ->
-		RocketChat.TabBar.removeButton 'portal-button'
+    Tracker.autorun ->
+        RocketChat.TabBar.removeButton 'portal-button'
 
