@@ -1,0 +1,25 @@
+<template name="portalSidebarFlex">
+    <header>
+        <div>
+            <h4>Portals</h4>
+        </div>
+    </header>
+    <div class="content">
+        {{#each portalGroups}}
+            <div class="wrapper">
+                <h5>{{ group }}</h5>
+                <ul class="flex-list">
+                    {{#each portals}}
+                        <li class="link-portal-{{name}}">
+                            <a class="open-room" href="/portal/{{_id._str}}" title="{{name}}">
+                                <i class="octicon octicon-browser" aria-label=""></i>
+                                <span class="name">{{name}}</span>
+                            </a>
+                        </li>
+                    {{/each}}
+                </ul>
+            </div>
+        {{/each}}
+    </div>
+</template>
+

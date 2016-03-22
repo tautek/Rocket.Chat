@@ -93,6 +93,7 @@ rocketchat:ui-sidenav
 rocketchat:version
 rocketchat:webrtc
 rocketchat:wordpress
+rocketchat:portal-iframe
 #rocketchat:chatops
 #rocketchat:hubot
 #rocketchat:irc

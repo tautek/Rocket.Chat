@@ -1,0 +1,2 @@
+RocketChat.portals = {}
+
